@@ -25,6 +25,7 @@ Core utilities
    librs
    genalloc
    errseq
+   packing
    printk-formats
    circular-buffers
    generic-radix-tree
@@ -34,6 +35,9 @@ Core utilities
    timekeeping
    boot-time-mm
    memory-hotplug
+   protection-keys
+   ../RCU/index
+   gcc-plugins
 
 
 Interfaces for kernel debugging
@@ -45,7 +49,7 @@ Interfaces for kernel debugging
    debug-objects
    tracepoint
 
-.. only::  subproject
+.. only:: subproject and html
 
    Indices
    =======
